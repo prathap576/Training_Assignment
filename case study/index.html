@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babu D | Big Data Engineer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER / HERO -->
+<header class="header">
+    <div class="header-content">
+        <img src="profile.jpeg" alt="Babu D">
+        <h1>Babu D</h1>
+        <p class="role">Big Data Engineer | Corporate Trainer</p>
+        <p class="location">Bengaluru, Karnataka, India</p>
+        <p class="contact">📧 babu.dumpalagattu@outlook.com | 📞 +91 81791 47889</p>
+    </div>
+</header>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="nav-container">
+
+        <div class="nav-logo">Babu D</div>
+
+        <!-- Hamburger -->
+        <div class="hamburger" id="hamburger">☰</div>
+
+        <!-- Menu -->
+        <div class="nav-menu" id="navMenu">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+    </div>
+</nav>
+
+<!-- MAIN -->
+<main class="container">
+
+    <!-- ABOUT -->
+    <section id="about" class="card">
+        <h2>Professional Summary</h2>
+        <p>
+            Big Data & Data Engineering professional with <strong>10+ years</strong> of experience
+            across ETL, Data Warehousing, SQL, Cloud, and Big Data platforms.
+            Strong expertise in scalable data pipelines and corporate training delivery.
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="card">
+        <h2>Core Skills</h2>
+
+        <div class="grid">
+            <div>SQL & Advanced SQL</div>
+            <div>Python & PySpark</div>
+            <div>Apache Spark</div>
+            <div>Databricks</div>
+            <div>Snowflake</div>
+            <div>AWS (S3, Glue, EMR)</div>
+            <div>Docker & Kubernetes</div>
+            <div>Terraform & CI/CD</div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="card">
+        <h2>Experience</h2>
+
+        <article>
+            <h3>Big Data Engineer – Clahan Technologies</h3>
+            <span>2023 – Present</span>
+            <p>
+                Designing and implementing cloud-native data pipelines,
+                Spark jobs, and analytics platforms.
+            </p>
+        </article>
+
+        <article>
+            <h3>Software Engineer – Cognizant</h3>
+            <span>2018 – 2023</span>
+            <p>
+                Built ETL validation frameworks, optimized SQL,
+                and supported enterprise data warehouses.
+            </p>
+        </article>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="card">
+        <h2>Key Projects</h2>
+        <ul>
+            <li><strong>Salesken AI Banking Agent</strong> – Azure, AKS, Terraform</li>
+            <li><strong>LDTI – CNO Financial</strong> – Insurance Data Migration</li>
+            <li><strong>Galaxy Internet Banking</strong> – ETL & BI Testing</li>
+        </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="card">
+        <h2>Contact</h2>
+
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <p>© 2025 Babu D | Professional Resume Website</p>
+</footer>
+
+<!-- JAVASCRIPT (Hamburger Toggle) -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const hamburger = document.getElementById("hamburger");
+    const navMenu = document.getElementById("navMenu");
+
+    hamburger.addEventListener("click", () => {
+        navMenu.classList.toggle("show");
+    });
+});
+</script>
+
+</body>
+</html>

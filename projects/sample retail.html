@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FreshMart | Home</title>
+  <link rel="stylesheet" href="sample retail.css" />
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar">
+  <div class="logo">
+    🛒 <span>FreshMart</span>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="#">Products</a></li>
+    <li><a href="#">Cart</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+
+  <div class="auth">
+    <button id="loginBtn">Login / Signup</button>
+    <button id="logoutBtn" class="hidden">Logout</button>
+  </div>
+
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+</nav>
+
+<!-- ===== HERO SECTION ===== -->
+<section class="hero">
+  <h1>Fresh & Organic Groceries</h1>
+  <p>Delivered to your doorstep</p>
+  <button>Shop Now</button>
+</section>
+
+<!-- ===== CATEGORIES ===== -->
+<section class="categories">
+  <h2>Shop by Category</h2>
+  <div class="category-grid">
+    <div class="card">🍎 Fruits</div>
+    <div class="card">🥦 Vegetables</div>
+    <div class="card">🌶 Spices</div>
+    <div class="card">🌾 Millets</div>
+  </div>
+</section>
+
+<!-- ===== OFFERS ===== -->
+<section class="offers">
+  <h2>Today's Offers</h2>
+  <div class="offer-box">
+    <p>🔥 Flat 20% OFF on Fresh Vegetables</p>
+  </div>
+</section>
+
+<!-- ===== TRENDING ===== -->
+<section class="trending">
+  <h2>Trending Products</h2>
+  <div class="product-grid">
+    <div class="product">Organic Apples</div>
+    <div class="product">Brown Rice</div>
+    <div class="product">Turmeric Powder</div>
+  </div>
+</section>
+
+<script src="sample retail.js"></script>
+</body>
+</html>

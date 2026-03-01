@@ -1,0 +1,30 @@
+.logo{
+    display: flex;
+}
+
+
+.banner{
+    background-image:url("./hospital.jpg");
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+}
+body{
+    background-image: url("./hospital-b.jpg");
+    background-size: cover;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
