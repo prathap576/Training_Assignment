@@ -6,3 +6,7 @@
 --- 
 
 ## Smart Retail store Website: https://prathap576.github.io/Training_Assignment/projects/index.html
+
+---
+## clinic website:
+https://prathap576.github.io/Training_Assignment/clinic%20website/clinic.html
